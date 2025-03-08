@@ -1,0 +1,28 @@
+@media screen and (min-width: 768px){
+    .contact-bgb1 .textb1{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-infob1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 992px){
+    .contact-bgb1 .textb1{
+        width: 50%;
+    }
+    .contact-formb1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .contact-infob1{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
